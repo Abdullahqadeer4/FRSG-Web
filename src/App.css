@@ -699,3 +699,24 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     font-size: 14px; /* Adjust font size as needed */
   }
 }
+/* Media Queries */
+@media screen and (max-width: 1024px) {
+  .container.testimonials__container{
+      width: 60%;
+      }
+ 
+
+}
+
+
+@media screen and (max-width: 600px) {
+  .container.testimonials__container{
+      width: var(--container-width-sm);
+      }
+      .client__review {
+          width: var(--container-width-sm);
+      }
+
+  
+
+}
