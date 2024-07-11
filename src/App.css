@@ -81,6 +81,16 @@ p.success {
 p.danger {
 	color: red;
 }
+.vvd {
+ 
+    white-space: nowrap; /* Prevents text from wrapping */
+    overflow: hidden; /* Ensures text that exceeds button width is hidden */
+    text-overflow: ellipsis; /* Adds ellipsis (...) for text overflow */
+    display: inline-block; /* Ensures button respects width of its content */
+    max-width: 100%; /* Restricts maximum width to its parent's width */
+  
+  
+}
 /************ Navbar Css ************/
 nav.navbar {
   padding: 18px 0;
@@ -230,11 +240,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	border-color: transparent;
 }
 
-/************ Banner Css ************/
+/************ Header Css ************/
 .banner {
   margin-top: 0;
   padding: 260px 0 100px 0;
-
+  background-image: url('./assets/img/banner-bg.png');
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -340,7 +350,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   z-index: -4;
 }
 
-/************ Projects Css ************/
+/************ Projects and Testimonials Css ************/
 .project {
   padding: 80px 0;
   position: relative;
@@ -541,7 +551,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /************ Footer Css ************/
 .footer {
   padding: 0 0 50px 0;
-  background-image: url('./assets/img/footer-bg.png');
+  background-image: url('./assets/img/color-sharp.png');
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -681,4 +691,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   display: block;
   width: 80%;
   margin: 0.8rem auto 0;
+}
+
+@media (max-width: 756px) {
+  .navbar-text .btn.btn-sm {
+    padding: 10px 10px; /* Adjust padding as needed */
+    font-size: 14px; /* Adjust font size as needed */
+  }
 }
