@@ -1,3 +1,4 @@
+
 /************ Custom Font ************/
 @font-face {
 	font-family: Centra;
@@ -31,8 +32,8 @@ body {
   font-weight: 400;
   overflow-x: hidden;
   position: relative;
-  background-color: #121212 !important;
-  color: #fff !important;
+  background-color: #bcd4e6 !important;
+  color: #ffffff !important;
   font-family: 'Centra', sans-serif !important;
 }
 
@@ -130,14 +131,14 @@ span.navbar-text {
 .social-icon a {
     width: 42px;
     height: 42px;
-    background: rgba(217, 217, 217, 0.1);
+    background: rgba(23, 108, 255, 0.3);
     display: inline-flex;
     border-radius: 50%;
     margin-right: 6px;
     align-items: center;
     justify-content: center;
     line-height: 1;
-    border: 1px solid rgba(255, 255, 255, 0.5);
+    border: 1px solid rgba(0, 55, 255, 0.405);
 }
 .social-icon a::before {
     content: "";
@@ -253,7 +254,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-weight: 700;
   letter-spacing: 0.8px;
   padding: 8px 10px;
-  background: linear-gradient(90.21deg, #63b0a8 -5.91%, #72988e 111.58%);
+  background: linear-gradient(90.21deg, #191970 -5.91%, #00bfff 111.58%);
   border: 1px solid rgba(255, 255, 255, 0.5);
   font-size: 20px;
   margin-bottom: 16px;
@@ -316,7 +317,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   position: relative;
 }
 .skill-bx {
-  background: #8ca7a1;
+  background: #191970;
   border-radius: 64px;
   text-align: center;
   padding: 60px 50px;
@@ -327,7 +328,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	font-weight: 700;
 }
 .skill p {
-    color: #000000;
+    color: #ffffff;
     font-size: 18px;
     letter-spacing: 0.8px;
     line-height: 1.5em;
@@ -354,15 +355,16 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .project {
   padding: 80px 0;
   position: relative;
-  background-color: black;
+  background-color: #bcd4e6;
 }
 .project h2 {
 	font-size: 45px;
 	font-weight: 700;
   text-align: center;
+  color: #191970;
 }
 .project p {
-  color: #B8B8B8;
+  color: #191970;
   font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
@@ -374,7 +376,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 72%;
   margin: 0 auto;
   border-radius: 50px;
-  background-color: rgb(255 255 255 / 10%);
+  background-color: rgba(13, 65, 254, 0.4);
   overflow: hidden;
 }
 .project .nav.nav-pills .nav-item {
@@ -399,7 +401,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     position: absolute;
     width: 0;
     height: 100%;
-    background: linear-gradient(90.21deg, #63b0a8 -5.91%, #72988e 111.58%);
+    background: linear-gradient(90.21deg, #191970 -5.91%, #00bfff  111.58%);
     top: 0;
     left: 0;
     z-index: -1;
@@ -412,15 +414,15 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     border: 1px solid rgba(255, 255, 255, 1);
 }
 .nav-link#projects-tabs-tab-first {
-  border: 1px solid rgba(255, 255, 255, 0.5);
+  border: 1px solid rgba(15, 87, 242, 0.5);
   border-radius: 55px 0px 0px 55px;
 }
 .nav-link#projects-tabs-tab-second {
-  border-top: 1px solid rgba(255, 255, 255, 0.5);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  border-top: 1px solid rgba(15, 87, 242, 0.5);
+  border-bottom: 1px solid rgba(15, 87, 242, 0.5);
 }
 .nav-link#projects-tabs-tab-third {
-  border: 1px solid rgba(255, 255, 255, 0.5);
+  border: 1px solid rgba(15, 87, 242, 0.5);
   border-radius: 0 55px 55px 0;
 }
 .proj-imgbx {
@@ -431,7 +433,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .proj-imgbx::before {
   content: "";
-  background: linear-gradient(90.21deg, #63b0a8 -5.91%, #72988e 111.58%);
+  background: linear-gradient(90.21deg, #191970  -5.91%, #00bfff  111.58%);
   opacity: 0.85;
   position: absolute;
   width: 100%;
@@ -478,7 +480,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Projects Css ************/
 .contact {
-  background: linear-gradient(90.21deg, #63b0a8 -5.91%, #72988e 111.58%);
+  background: linear-gradient(90.21deg, #191970  -5.91%, #00bfff  111.58%);
   padding: 60px 0 200px 0;
 }
 .contact img {
@@ -491,8 +493,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .contact form input, .contact form textarea {
   width: 100%;
-  background: rgba(255, 255, 255, 0.1);
-  border: 1px solid rgba(255, 255, 255, 0.5);
+  background: rgba(15, 87, 242, 0.5);
+  border: 1px solid rgba(15, 87, 242, 0.5);
   border-radius: 20px;
   color: #fff;
   margin: 0 0 8px 0;
@@ -535,7 +537,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .contact form button::before {
   content: "";
-  background: #121212;
+  background: #191970 ;
   width: 0;
   height: 100%;
   position: absolute;
@@ -551,7 +553,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /************ Footer Css ************/
 .footer {
   padding: 0 0 50px 0;
-  background-image: url('./assets/img/color-sharp.png');
+  background-image: url('./assets/img/footer-bg.png');
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -622,7 +624,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .footer p {
   font-weight: 400;
   font-size: 14px;
-  color: #B8B8B8;
+  color: #191970;
   letter-spacing: 0.5px;
   margin-top: 20px;
 }
@@ -637,7 +639,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
-  background-color: #fcfcfc; /* Color consistent with existing light grey text color */
+  background-color: #191970; /* Color consistent with existing light grey text color */
   opacity: 1;
   border-radius: 50%;
   margin: 0 4px;
@@ -645,7 +647,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .swiper-pagination-bullet-active {
-  background-color: #b8e5e0; /* Color consistent with primary gradient color */
+  background-color: #191970; /* Color consistent with primary gradient color */
   border: 1px solid #fff; /* Border to make active bullet more prominent */
   transform: scale(1.2); /* Slightly increase size for active bullet */
 }
@@ -672,13 +674,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   overflow: hidden;
   border-radius: 50%;
   margin: 0 auto 1rem;
-  border: 0.4px solid #72988e 111.58%;
+  border: 0.4px solid #191970 111.58%;
   display: flex;
   justify-content: center;
 }
 
 .testimonial {
-  background: linear-gradient(90.21deg, #63b0a8 -5.91%, #72988e 111.58%);
+  background: linear-gradient(90.21deg, #191970 -5.91%, #00bfff  111.58%);
   text-align: center;
   padding: 2rem;
   border-radius: 2rem;
@@ -686,7 +688,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .client__review {
-  color: #72988e 111.58%;
+  color: #191970 111.58%;
   font-weight: 300;
   display: block;
   width: 80%;
@@ -719,4 +721,485 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
   
 
+}
+
+/* Payments CSS */
+
+.payments-section {
+  padding: 80px 0;
+  background-color: #191970;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 50px;
+  color: #fff;
+}
+
+.payment-card {
+  margin-bottom: 30px;
+}
+
+.payment-icon {
+  font-size: 50px;
+  color: #191970;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.payment-icon:hover {
+  transform: scale(1.1);
+}
+
+
+/* Details CSS */
+
+
+/* App.css */
+
+
+/************ Project Details Css ************/
+/************ Project Details Css ************/
+/************ Project Details Css ************/
+.project-details {
+  padding: 80px 0;
+  position: relative;
+  background-color: #87ceeb ;
+  color: #191970;
+}
+
+.project-details h1, .project-details h2 {
+  margin-top: 100px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.project-details h1 {
+  font-size: 45px;
+}
+
+.project-details h2 {
+  font-size: 35px;
+  margin-top: 40px;
+}
+
+.project-details .intro-text {
+  color: #191970;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  margin-bottom: 60px;
+}
+
+
+
+.project-details .project-image {
+  max-width: 60%;  /* Reduces the maximum width */
+  height: auto;
+  border-radius: 20px;
+  margin: 0 auto 20px auto;
+  display: block;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.project-details .project-description {
+  color: #191970;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  text-align: center;
+  margin: 0 auto 40px auto;
+}
+
+@media (max-width: 768px) {
+  .project-details .project-image {
+    max-width: 90%;  /* Adjusts the width for smaller screens */
+  }
+
+  .project-details h1 {
+    font-size: 35px;  /* Adjusts the heading size for smaller screens */
+  }
+
+  .project-details h2 {
+    font-size: 30px;  /* Adjusts the subheading size for smaller screens */
+  }
+
+  .project-details .intro-text,
+  .project-details .project-description {
+    font-size: 16px;  /* Adjusts the text size for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .project-details h1 {
+    font-size: 30px;  /* Further adjusts the heading size for very small screens */
+  }
+
+  .project-details h2 {
+    font-size: 25px;  /* Further adjusts the subheading size for very small screens */
+  }
+
+  .project-details .intro-text,
+  .project-details .project-description {
+    font-size: 14px;  /* Further adjusts the text size for very small screens */
+  }
+}
+
+
+/************ Careers Css ************/
+/************ Careers Css ************/
+/************ Careers Css ************/
+.careers {
+  position: relative;
+  background-color: #bcd4e6;
+  color: #fff;
+}
+
+.hero-section {
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.5);
+  transition: transform 0.3s ease-in-out;
+}
+
+.hero-section:hover .hero-image {
+  transform: scale(1.05);
+}
+
+.hero-text {
+  position: absolute;
+  color: #fff;
+  text-align: center;
+  z-index: 2;
+}
+
+.hero-text h1 {
+  margin-top: 100px;
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  animation: fadeInUp 1s ease-in-out;
+}
+
+.hero-text .intro-text {
+  font-size: 20px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  animation: fadeInUp 1.5s ease-in-out;
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.intro-section {
+  padding: 60px 0;
+  background-color: #191970;
+  border-bottom: 1px solid #191970;
+}
+
+.intro-section h2 {
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.job-listing {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+  padding: 20px;
+  background-color: #4682b4 ;
+  border-radius: 10px;
+  transition: background-color 0.3s ease-in-out;
+  animation: fadeInUp 2s ease-in-out;
+}
+
+.job-listing:hover {
+  background-color: #bcd4e6;
+}
+
+.job-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.job-details h3 {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.job-details p {
+  font-size: 18px;
+  color: #191970 ;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+}
+
+@media (max-width: 768px) {
+  .hero-section 
+  {
+    height: 300px;
+  }
+
+  .hero-text h1 
+  {
+    font-size: 35px;
+  }
+
+  .hero-text .intro-text 
+  {
+    font-size: 18px;
+  }
+
+  .job-listing {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .job-image {
+    margin-bottom: 20px;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-section {
+    height: 250px;
+  }
+  
+
+  .hero-text h1 {
+    font-size: 30px;
+  }
+
+  .hero-text .intro-text {
+    font-size: 16px;
+  }
+
+  .intro-section h2 {
+    font-size: 30px;
+  }
+
+  .job-details h3 {
+    font-size: 24px;
+  }
+
+  .job-details p {
+    font-size: 16px;
+  }
+}
+
+
+/* General button styles */
+.ret-button {
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  background-color: #191970 ;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Hover and focus states */
+.ret-button:hover,
+.ret-button:focus {
+  background-color: #191970 ;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(22, 86, 247, 0.396);
+}
+
+/* Active state */
+.ret-button:active {
+  background-color: #191970 ;
+  transform: translateY(0);
+  box-shadow: 0 2px 10px rgba(22, 86, 247, 0.396);
+}
+
+/* Button with gradient */
+.ret-button-gradient {
+  background: linear-gradient(45deg, #191970, #00bfff);
+}
+
+.ret-button-gradient:hover, .ret-button-gradient:focus {
+  background: linear-gradient(45deg, #191970, #00bfff);
+}
+
+/* Button with shadow */
+.ret-button-shadow {
+  box-shadow: 0 8px 30px rgba(22, 86, 247, 0.396);
+}
+
+.ret-button-shadow:hover, .ret-button-shadow:focus {
+  box-shadow: 0 12px 40px rgba(22, 86, 247, 0.396)
+}
+
+/* Animated button */
+.ret-button-animated {
+  position: relative;
+  overflow: hidden;
+}
+
+.ret-button-animated::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: rgba(22, 86, 247, 0.396);
+  transition: left 0.4s ease;
+}
+
+.ret-button-animated:hover::before {
+  left: 100%;
+}
+
+/* Large buttons */
+.ret-button-large {
+  padding: 16px 32px;
+  font-size: 18px;
+}
+
+/* Small buttons */
+.ret-button-small {
+  padding: 8px 16px;
+  font-size: 14px;
+}
+
+/* Button with rounded corners */
+.ret-button-rounded {
+  border-radius: 50px;
+}
+
+
+.job-application {
+ 
+  background: linear-gradient(90.21deg, #191970 -5.91%, #00bfff  111.58%);
+  padding: 60px 0 200px 0;
+}
+
+.job-application img {
+  width: 92%;
+  margin-bottom: 30px; /* Added margin to separate image from content */
+}
+
+.job-application h2 {
+  margin-top: 100px;
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  color: #fff; /* Ensuring text color contrasts with the background */
+}
+
+.job-application form input, 
+.job-application form textarea,
+.job-application form select {
+  width: 100%;
+  background: rgba(22, 86, 247, 0.396);
+  border: 1px solid rgba(22, 86, 247, 0.396);
+  border-radius: 20px;
+  color: #fff;
+  margin-bottom: 15px; /* Added margin for spacing between fields */
+  padding: 18px 26px;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  transition: 0.3s ease-in-out;
+}
+
+.job-application form input:focus, 
+.job-application form textarea:focus,
+.job-application form select:focus {
+  background: rgba(255, 255, 255, 1);
+  color: #121212;
+}
+
+.job-application form input::placeholder, 
+.job-application form textarea::placeholder,
+.job-application form select option {
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.job-application form input:focus::placeholder, 
+.job-application form textarea:focus::placeholder {
+  color: #191970;
+  opacity: 0.8;
+}
+
+.job-application form button {
+  font-weight: 700;
+  color: #000;
+  background-color: #fff;
+  padding: 14px 48px;
+  font-size: 18px;
+  margin-top: 25px;
+  border-radius: 0;
+  position: relative;
+  transition: 0.3s ease-in-out;
+}
+
+.job-application form button:hover {
+  color: #fff;
+}
+
+.job-application form button::before {
+  content: "";
+  background: #191970;
+  width: 0;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  transition: 0.3s ease-in-out;
+}
+
+.job-application form button:hover::before {
+  width: 100%;
+}
+
+.return-button {
+  margin-left: 15px; /* Adjusted margin for the return button */
+}
+
+.job-application form .form-group {
+  margin-bottom: 20px; /* Added margin for form groups */
+}
+
+
+.text-custom-color {
+  color: #191970;
 }

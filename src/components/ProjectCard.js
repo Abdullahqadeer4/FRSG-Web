@@ -1,4 +1,5 @@
 import { Col } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 export const ProjectCard = ({ title, description, imgUrl }) => {
   return (
@@ -8,8 +9,9 @@ export const ProjectCard = ({ title, description, imgUrl }) => {
         <div className="proj-txtx">
           <h4>{title}</h4>
           <span>{description}</span>
+          <Link to="/project-details">View Details</Link>
         </div>
       </div>
     </Col>
-  )
-}
+  );
+};
