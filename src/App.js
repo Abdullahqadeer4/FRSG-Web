@@ -14,6 +14,7 @@ import JobApplication from './components/jobApplications';
 
 function App() {
   return (
+
   
       <div className="App">
             <NavBar />
@@ -36,6 +37,7 @@ function App() {
           <Footer />
       </div>
     
+
   );
 }
 
