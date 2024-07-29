@@ -1,9 +1,11 @@
-# FRSG WEBSITE
+
+# FRSG Website in React
+
 
 Built using:
 
 - Front-end library: React
 - CSS framework: React-bootstrap
-- CSS animations library: Animate.css
+- CSs animations library: Animate.css
 
 
