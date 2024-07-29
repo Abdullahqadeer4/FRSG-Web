@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import contactImg from "../assets/img/contact-img.svg";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
+import axios from 'axios';
 
 export const Contact = () => {
   const formInitialDetails = {
@@ -15,6 +16,7 @@ export const Contact = () => {
   const [formDetails, setFormDetails] = useState(formInitialDetails);
   const [buttonText, setButtonText] = useState('Send');
   const [status, setStatus] = useState({});
+  
 
   const onFormUpdate = (category, value) => {
     setFormDetails({
@@ -25,16 +27,21 @@ export const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    const mailtoLink = `mailto:habiba.saleem2002@gmail.com?subject=Contact Form Submission - FRSG&body=Name: ${formDetails.firstName} ${formDetails.lastName}%0D%0AEmail: ${formDetails.email}%0D%0APhone: ${formDetails.phone}%0D%0AMessage: ${formDetails.message}`;
-    window.location.href = mailtoLink;
-    setStatus({ success: true, message: 'Redirecting to your email client...' });
-    setFormDetails(formInitialDetails);
-    
-    setTimeout(() => {
-      setStatus({});
-    }, 3000); 
+    setButtonText('Sending...');
+    axios.post('http://localhost:3001/send-email', formDetails)
+      .then(response => {
+        setStatus({ success: true, message: 'Email sent successfully!' });
+        setButtonText('Send');
+        setFormDetails(formInitialDetails);
+      })
+      .catch(error => {
+        setStatus({ success: false, message: 'Failed to send email. Please try again later.' });
+        setButtonText('Send');
+        console.error('There was an error!', error);
+
+      });
   };
-  
+
   return (
     <section className="contact" id="connect">
       <Container>

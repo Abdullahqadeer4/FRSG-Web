@@ -62,7 +62,7 @@ export const Header = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to FRSG's Website</span>
-                <h1>{`Some comment about the website`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Dummy comment 1 ", "Dummy comment 2", "Dummy comment 3" ]'><span className="wrap">{text}</span></span></h1>
+                <h1>{"Some comment about the website"} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Dummy comment 1 ", "Dummy comment 2", "Dummy comment 3" ]'><span className="wrap">{text}</span></span></h1>
                   <button  onClick={scrollToConnect}>
                     Let’s Connect <ArrowRightCircle size={25} />
                   </button>
