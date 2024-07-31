@@ -123,7 +123,7 @@ export const JobApplication = () => {
                     </Row>
                     <Row>
                       {/* Third Row: CV and Submit Button */}
-                      <Col size={12} className="px-1">
+                      <Col size={12} className="px-3">
                         <input 
                           type="file" 
                           onChange={handleFileChange} 
@@ -131,10 +131,11 @@ export const JobApplication = () => {
                           required
                         />
                       </Col>
-                      <Col size={12} className="px-1">
-                        <button type="submit" className="submit-btn ret-button ret-button-gradient ret-button-animated ret-button-large">
-                          <span>{buttonText}</span>
-                        </button>
+                      
+                    </Row>
+                    <Row>
+                    <Col size={12} className="px-1">
+                      <button type="submit"><span>{buttonText}</span></button>
                       </Col>
                       {
                         status.message &&

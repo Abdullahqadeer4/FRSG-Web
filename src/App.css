@@ -100,6 +100,7 @@ nav.navbar {
   top: 0;
   z-index: 9999;
   transition:  0.32s ease-in-out;
+  background: linear-gradient(90.21deg, #191970 -5.91%, #00bfff 111.58%);
 }
 nav.navbar.scrolled {
   padding: 0px 0;
@@ -245,7 +246,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner {
   margin-top: 0;
   padding: 260px 0 100px 0;
-  background-image: url('./assets/img/banner-bg.png');
+ 
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -267,6 +268,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   line-height: 1;
   margin-bottom: 20px;
   display: block;
+  color:  #191970;
+  
 }
 .banner p {
   color: #B8B8B8;
@@ -274,6 +277,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.8px;
   line-height: 1.5em;
   width: 96%;
+  color: #191970;
 }
 .banner button {
   color: #fff;
@@ -283,12 +287,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.8px;
   display: flex;
   align-items: center;
+  color: #191970;
 }
 .banner button svg {
   font-size: 25px;
   margin-left: 10px;
   transition: 0.3s ease-in-out;
   line-height: 1;
+  color: linear-gradient(90.21deg, #191970 -5.91%, #00bfff 111.58%);
 }
 .banner button:hover svg {
   margin-left: 25px;
@@ -493,7 +499,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .contact form input, .contact form textarea {
   width: 100%;
-  background: rgba(15, 87, 242, 0.5);
+  background: rgba(217, 219, 224, 0.5);
   border: 1px solid rgba(15, 87, 242, 0.5);
   border-radius: 20px;
   color: #fff;
@@ -622,6 +628,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 26%;
 }
 .footer p {
+
   font-weight: 400;
   font-size: 14px;
   color: #191970;
@@ -726,9 +733,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /* Payments CSS */
 
 .payments-section {
+  margin-bottom: 80px;
   padding: 80px 0;
   background-color: #191970;
   text-align: center;
+  border-radius: 2%;
 }
 
 .section-title {
@@ -766,7 +775,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .project-details {
   padding: 80px 0;
   position: relative;
-  background-color: #87ceeb ;
+  background-color: #bcd4e6 ;
   color: #191970;
 }
 
@@ -919,17 +928,20 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .intro-section h2 {
+  
   font-size: 35px;
   font-weight: 700;
   margin-bottom: 40px;
 }
 
 .job-listing {
+  margin-top: 20px;
   display: flex;
   align-items: center;
   margin-bottom: 40px;
   padding: 20px;
-  background-color: #4682b4 ;
+  background: linear-gradient(90.21deg, #191970 -5.91%, #00bfff 111.58%);
+
   border-radius: 10px;
   transition: background-color 0.3s ease-in-out;
   animation: fadeInUp 2s ease-in-out;
@@ -955,7 +967,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .job-details p {
   font-size: 18px;
-  color: #191970 ;
+  color: #f7f7f7 ;
   letter-spacing: 0.8px;
   line-height: 1.5em;
 }
@@ -1105,31 +1117,34 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .job-application {
  
-  background: linear-gradient(90.21deg, #191970 -5.91%, #00bfff  111.58%);
+  background: #bcd4e6;
   padding: 60px 0 200px 0;
 }
 
 .job-application img {
   width: 92%;
   margin-bottom: 30px; /* Added margin to separate image from content */
+  border-radius: 15%;
+  margin-top: 100px;
 }
 
 .job-application h2 {
-  margin-top: 100px;
+
+  margin-top: 150px;
   font-size: 45px;
   font-weight: 700;
   margin-bottom: 30px;
-  color: #fff; /* Ensuring text color contrasts with the background */
+  color:  #191970 /* Ensuring text color contrasts with the background */
 }
 
 .job-application form input, 
 .job-application form textarea,
 .job-application form select {
   width: 100%;
-  background: rgba(22, 86, 247, 0.396);
+  background: rgba(254, 254, 254, 0.396);
   border: 1px solid rgba(22, 86, 247, 0.396);
   border-radius: 20px;
-  color: #fff;
+  color:  #191970;
   margin-bottom: 15px; /* Added margin for spacing between fields */
   padding: 18px 26px;
   font-weight: 500;
@@ -1142,7 +1157,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .job-application form textarea:focus,
 .job-application form select:focus {
   background: rgba(255, 255, 255, 1);
-  color: #121212;
+  color: #191970;
 }
 
 .job-application form input::placeholder, 
@@ -1150,7 +1165,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .job-application form select option {
   font-size: 16px;
   font-weight: 400;
-  color: #fff;
+  color:  #191970;
 }
 
 .job-application form input:focus::placeholder, 
@@ -1161,7 +1176,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .job-application form button {
   font-weight: 700;
-  color: #000;
+  color:  #191970;
   background-color: #fff;
   padding: 14px 48px;
   font-size: 18px;
@@ -1172,12 +1187,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .job-application form button:hover {
-  color: #fff;
+  color:  #191970;;
 }
 
 .job-application form button::before {
   content: "";
-  background: #191970;
+  background: #fefeff;
   width: 0;
   height: 100%;
   position: absolute;
@@ -1202,4 +1217,15 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .text-custom-color {
   color: #191970;
+}
+.white-button {
+  background-color: white;
+  color: blue;
+  border: 1px solid blue;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.white-button:hover {
+  background-color: #f0f0f0;
 }

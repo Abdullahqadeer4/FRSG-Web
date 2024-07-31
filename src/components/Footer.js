@@ -17,7 +17,7 @@ export const Footer = () => {
             </p>
           </Col>
           <Col size={12} sm={3}>
-            <h5 className="text-custom-color">Services</h5>
+            <h5 className="text-custom-color mt-4">Services</h5>
             <ul className="list-unstyled text-custom-color">
               <li>Digital Consulting & Strategy</li>
               <li>Digital Commerce</li>
@@ -37,7 +37,7 @@ export const Footer = () => {
             </ul>
           </Col>
           <Col size={12} sm={3}>
-            <h5 className="text-custom-color">Industries</h5>
+            <h5 className="text-custom-color mt-4">Industries</h5>
             <ul className="list-unstyled text-custom-color">
               <li>Telecommunications</li>
               <li>Banking & Finance</li>
@@ -45,7 +45,7 @@ export const Footer = () => {
               <li>Healthcare & Pharmaceutical</li>
               <li>Retail & CPG</li>
             </ul>
-            <h5 className="text-custom-color">Insights</h5>
+            <h5 className="text-custom-color mt-4">Insights</h5>
             <ul className="list-unstyled text-custom-color">
               <li>Case Studies</li>
               <li>Newsroom</li>
@@ -54,7 +54,7 @@ export const Footer = () => {
             </ul>
           </Col>
           <Col size={12} sm={3} className="text-center text-sm-end">
-            <h5 className="text-custom-color">Quick Links</h5>
+            <h5 className="text-custom-color mt-4">Quick Links</h5>
             <ul className="list-unstyled text-custom-color">
               <li>Who we are</li>
               <li>Careers</li>

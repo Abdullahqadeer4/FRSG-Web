@@ -44,7 +44,7 @@ export const Careers = () => {
                 <div className="job-details">
                   <h3>Software Engineer</h3>
                   <p>We are looking for a skilled software engineer with experience in React and Node.js.</p>
-                  <Button onClick={handleApplyClick}>APPLY NOW</Button>
+                  <Button onClick={handleApplyClick}  className="btn btn-light text-primary border-primary">APPLY NOW</Button>
                 </div>
               </div>
               <div className="job-listing">
@@ -52,7 +52,7 @@ export const Careers = () => {
                 <div className="job-details">
                   <h3>Data Scientist</h3>
                   <p>Join our data team to work on cutting-edge machine learning projects.</p>
-                  <Button onClick={handleApplyClick}>APPLY NOW</Button>
+                  <Button onClick={handleApplyClick}  className="btn btn-light text-primary border-primary">APPLY NOW</Button>
                 </div>
               </div>
               <div className="job-listing">
@@ -60,7 +60,7 @@ export const Careers = () => {
                 <div className="job-details">
                   <h3>Project Manager</h3>
                   <p>We need an experienced project manager to lead our development teams.</p>
-                  <Button onClick={handleApplyClick}>APPLY NOW</Button>
+                  <Button onClick={handleApplyClick}  className="btn btn-light text-primary border-primary">APPLY NOW</Button>
                 </div>
               </div>
             </Col>
