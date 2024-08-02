@@ -864,6 +864,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   position: relative;
   background-color: #bcd4e6;
   color: #fff;
+  margin-top: 60px;
 }
 
 .hero-section {
