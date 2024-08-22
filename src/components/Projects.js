@@ -14,60 +14,78 @@ import AVTR4 from '../assets/img/avatar4.jpeg'
 
 
 
+
+
+
+
+
+
+
+
 export const Projects = () => {
 
   const projects = [
     {
-      title: "FRSG",
+      title: "Code Meha",
       description: "Project 1",
       imgUrl: projImg1,
     },
     {
-      title: "FRSG",
+      title: "Code Meha",
       description: "Project 2",
       imgUrl: projImg2,
     },
     {
-      title: "FRSG",
+      title: "Code Meha",
       description: "Project 3",
       imgUrl: projImg3,
     },
     {
-      title: "FRSG",
+      title: "Code Meha",
       description: "Project 4",
       imgUrl: projImg1,
     },
     {
-      title: "FRSG",
+      title: "Code Meha",
       description: "Project 5",
       imgUrl: projImg2,
     },
     {
-      title: "FRSG",
+      title: "Code Meha",
       description: "Project 6",
       imgUrl: projImg3,
     },
   ];
+
   const data = [
     {
+
       avatar: AVTR1,
       name: 'Tina Snow',
       review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.'
+
     },
     {
+
       avatar: AVTR2,
       name: 'Robert Downey',
       review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.'
+
     },
     {
+
       avatar: AVTR3,
       name: 'Bruce Wayne',
       review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.'
+
+
     },
     {
+
       avatar: AVTR4,
       name: 'Zendaya Lastname',
       review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.'
+
     }
   ]
   
@@ -86,6 +104,7 @@ export const Projects = () => {
                     
                   </Nav>
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
+                    
                     <Tab.Pane eventKey="first">
                    
                       <Row>

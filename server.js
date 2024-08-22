@@ -27,8 +27,8 @@ app.post('/send-email', (req, res) => {
 
   const mailOptions = {
     from: process.env.EMAIL_USER,
-    to: 'f219099@cfd.nu.edu.pk',
-    subject: 'Contact Form Submission - FRSG',
+    to: 'contact@codemeha.com',
+    subject: 'Contact Form Submission - Code Meha',
     text: `Name: ${firstName} ${lastName}\nEmail: ${email}\nPhone: ${phone}\nMessage: ${message}`
   };
 
@@ -58,7 +58,7 @@ app.post('/apply', upload.single('cv'), (req, res) => {
 
   const mailOptions = {
     from: process.env.EMAIL_USER,
-    to: 'f219099@cfd.nu.edu.pk',
+    to: 'contact@codemeha.com',
     subject: `Job Application for ${jobTitle}`,
     text: `Name: ${name}\nEmail: ${email}\nCover Letter: ${coverLetter}`,
     attachments: [

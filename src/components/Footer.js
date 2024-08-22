@@ -1,5 +1,5 @@
 import { Container, Row, Col } from "react-bootstrap";
-import logo from "../assets/img/logo.svg";
+import logo from "../assets/img/LogoFinal1.png";
 import navIcon1 from "../assets/img/nav-icon1.svg";
 import navIcon2 from "../assets/img/nav-icon2.svg";
 import navIcon3 from "../assets/img/nav-icon3.svg";
@@ -11,9 +11,10 @@ export const Footer = () => {
       <Container>
         <Row className="align-items-start">
           <Col size={12} sm={3}>
-            <img src={logo} alt="Logo" className="mb-3" />
+          <img src={logo} alt="Logo" className="logof mb-3" style={{ width: '200px', height: 'auto' }} />
+
             <p className="text-custom-color">
-              FRSG is a leading IT solutions provider specializing in software development, cloud computing, and AI-driven technologies. We are committed to delivering innovative and reliable solutions to our clients.
+             Code Meha is a leading IT solutions provider specializing in software development, cloud computing, and AI-driven technologies. We are committed to delivering innovative and reliable solutions to our clients.
             </p>
           </Col>
           <Col size={12} sm={3}>
@@ -72,7 +73,7 @@ export const Footer = () => {
         </Row>
         <Row className="align-items-center">
           <Col size={12} className="text-center mt-3">
-            <p className="text-custom-color">© Copyright FRSG 2024. All Rights Reserved</p>
+            <p className="text-custom-color">© Copyright Code Meha 2024. All Rights Reserved</p>
           </Col>
         </Row>
       </Container>

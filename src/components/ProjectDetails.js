@@ -17,7 +17,7 @@ export const ProjectDetails = () => {
             <p className="intro-text">
               Welcome to our projects page! Here, you will find a showcase of our latest and greatest work. Each project is a testament to our dedication, expertise, and passion for delivering top-notch solutions. Dive in and explore the details of each project to see how we bring ideas to life.
             </p>
-            <Button className="ret-button ret-button-gradient ret-button-animated ret-button-large" onClick={() => navigate('/')}>FRSG</Button>
+            <Button className="ret-button ret-button-gradient ret-button-animated ret-button-large" onClick={() => navigate('/')}>Code Meha</Button>
           </Col>
         </Row>
         <Row className="justify-content-center">

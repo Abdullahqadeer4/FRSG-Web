@@ -135,7 +135,7 @@ export const JobApplication = () => {
                     </Row>
                     <Row>
                     <Col size={12} className="px-1">
-                      <button type="submit"><span>{buttonText}</span></button>
+                      <button style={{ borderRadius: '8px' }} type="submit"><span>{buttonText}</span></button>
                       </Col>
                       {
                         status.message &&

@@ -5,6 +5,7 @@ import { Header } from "./components/Header";
 import { Projects } from "./components/Projects";
 import { Footer } from "./components/Footer";
 import { Technology } from "./components/Technology";
+import { Services } from "./components/Services";
 import { Payments } from "./components/Payments";
 import { ProjectDetails } from "./components/ProjectDetails"; // Import the new component
 import { Careers } from "./components/Careers"; // Import the new component
@@ -23,6 +24,7 @@ function App() {
             <>
          
               <Header />
+              <Services />
               <Technology />
               <Projects />
               <Payments />
